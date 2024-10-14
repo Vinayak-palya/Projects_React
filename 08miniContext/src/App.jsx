@@ -1,12 +1,12 @@
 
 import './App.css'
-import UserContextProvider from './context/userContextProvider'
+import UserContextProvider from './context/UserContextProvider'
 
 function App() {
  
   return (
     <UserContextProvider>
-      react 
+      <h1>react with chai</h1> 
     </UserContextProvider>
   )
 }
